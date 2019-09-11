@@ -1,2 +1,0 @@
-# PicturePreview
-Created with CodeSandbox

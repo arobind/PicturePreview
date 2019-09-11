@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: calc(100vh - 16px);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: relative;
+  min-height: 50%;
+  min-width: 30%;
+  width: auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  z-index: 789;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 90%;
+}
+img {
+  max-width: 90%;
+}
+
+.cancel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.overlay-data {
+  padding: 10px;
+}
+.button {
+  margin: 0 15px 0 15px;
+}
